@@ -1,3 +1,7 @@
- Preprocessing complete.
-Features used: ['gender_Vec', 'PhoneService_Vec', 'InternetService_Vec', 'SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges']
-Total rows after preprocessing: 1000
+Task 1: Data Preprocessing and Feature Engineering
+                                                    features  ChurnIndex
+[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 8.0, 93.97, 734.67]         1.0
+[0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 9.0, 68.92, 590.55]         0.0
+(0.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 43.0, 30.1, 989.28)         0.0
+   (1.0, 0.0, 1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 81.44, 0.0)         0.0
+(0.0, 1.0, 0.0, 1.0, 1.0, 0.0, 0.0, 0.0, 2.0, 62.83, 107.35)         0.0
