@@ -138,9 +138,47 @@ maxIter=20
 
 ### 2. Run the Project
 
-### 2. Run the Pr
-
 ```bash
 spark-submit churn_prediction.py
 ```
-### Make sure to include your original ouput and explain the code
+## Task 1: Preprocessing and Feature Engineering
+Goal: Prepare the data for machine learning.
+
+What it does:
+
+Fills missing values in TotalCharges
+
+Encodes text columns like gender and InternetService
+
+Combines everything into a features column
+
+## Task 2: Logistic Regression Model
+Goal: Train a model and check how accurate it is.
+
+What it does:
+
+Splits the data 80% train, 20% test
+
+Trains a logistic regression model
+
+Measures how good the model is using AUC (Area Under Curve)
+
+## Task 3: Feature Selection (Chi-Square)
+Goal: Pick the 5 most important features.
+
+What it does:
+
+Uses a Chi-Square test to find top features
+
+Shows which features are most useful for predicting churn
+
+## Task 4: Model Comparison and Tuning
+Goal: Try different models and pick the best one.
+
+What it does:
+
+Tests 4 models: Logistic Regression, Decision Tree, Random Forest, and GBT
+
+Tunes parameters using cross-validation
+
+Reports the best model and its accuracy
