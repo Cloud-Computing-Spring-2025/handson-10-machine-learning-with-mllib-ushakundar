@@ -1,0 +1,2 @@
+ Logistic Regression Model Evaluation
+AUC (Area Under ROC): 0.7725

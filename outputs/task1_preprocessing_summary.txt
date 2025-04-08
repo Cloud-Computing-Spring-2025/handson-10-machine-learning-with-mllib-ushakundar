@@ -1,0 +1,3 @@
+ Preprocessing complete.
+Features used: ['gender_Vec', 'PhoneService_Vec', 'InternetService_Vec', 'SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges']
+Total rows after preprocessing: 1000

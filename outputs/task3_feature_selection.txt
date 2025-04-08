@@ -1,0 +1,6 @@
+ Top 5 features selected using Chi-Square (with original names):
+- PhoneService_Vec[1]
+- PhoneService_Vec[2]
+- InternetService_Vec[0]
+- InternetService_Vec[1]
+- InternetService_Vec[2]
